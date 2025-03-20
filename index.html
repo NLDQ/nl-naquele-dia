@@ -1,0 +1,331 @@
+<!doctype html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <!-- utf-8 works for most cases -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Forcing initial-scale shouldn't be necessary -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Use the latest (edge) version of IE rendering engine -->
+    <title>"Naquele Dia", de Laura Alcoba</title>
+    <!-- The title tag shows in email notifications, like Android 4.4. -->
+    <!-- Please use an inliner tool to convert all CSS to inline as inpage or external CSS is removed by email clients -->
+    <!-- important in CSS is used to prevent the styles of currently inline CSS from overriding the ones mentioned in media queries when corresponding screen sizes are encountered -->
+
+    <!-- CSS Reset -->
+    <style type="text/css">
+/* What it does: Remove spaces around the email design added by some email clients. */
+      /* Beware: It can remove the padding / margin and add a background color to the compose a reply window. */
+html,  body {
+	margin: 0 !important;
+	padding: 0 !important;
+	height: 100% !important;
+	width: 100% !important;
+}
+/* What it does: Stops email clients resizing small text. */
+* {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+/* What is does: Centers email on Android 4.4 */
+div[style*="margin: 16px 0"] {
+	margin: 0 !important;
+}
+/* What it does: Stops Outlook from adding extra spacing to tables. */
+table,  td {
+	mso-table-lspace: 0pt !important;
+	mso-table-rspace: 0pt !important;
+}
+/* What it does: Fixes webkit padding issue. Fix for Yahoo mail table alignment bug. Applies table-layout to the first 2 tables then removes for anything nested deeper. */
+table {
+	border-spacing: 0 !important;
+	border-collapse: collapse !important;
+	table-layout: fixed !important;
+	margin: 0 auto !important;
+}
+table table table {
+	table-layout: auto;
+}
+/* What it does: Uses a better rendering method when resizing images in IE. */
+img {
+	-ms-interpolation-mode: bicubic;
+}
+/* What it does: Overrides styles added when Yahoo's auto-senses a link. */
+.yshortcuts a {
+	border-bottom: none !important;
+}
+/* What it does: Another work-around for iOS meddling in triggered links. */
+a[x-apple-data-detectors] {
+	color: inherit !important;
+}
+</style>
+
+    <!-- Progressive Enhancements -->
+    <style type="text/css">
+        h1{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:2em;
+			font-style:italic;
+			font-weight:bold;
+			line-height:100%;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		h2{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:1.4em;
+			font-style:normal;
+			font-weight:normal;
+			line-height:100%;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		h3{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:1.4em;
+			font-style:normal;
+			font-weight:bold;
+			line-height:120%;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		h4{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:1.1em;
+			font-style:normal;
+			font-weight:bold;
+			line-height:120%;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		h5{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:14px;
+			font-style:normal;
+			font-weight:normal;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		p{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:1em;
+			font-style:normal;
+			font-weight:normal;
+			line-height:165%;
+			letter-spacing:normal;
+			text-align:left;
+		}
+        /* What it does: Hover styles for buttons */
+        .button-td,
+        .button-a {
+            transition: all 100ms ease-in;
+        }
+        .button-td:hover,
+        .button-a:hover {
+            background: #555555 !important;
+            border-color: #555555 !important;
+        }
+
+        /* Media Queries */
+        @media screen and (max-width: 700px) {
+
+            .email-container {
+                width: 100% !important;
+            }
+
+            /* What it does: Forces elements to resize to the full width of their container. Useful for resizing images beyond their max-width. */
+            .fluid,
+            .fluid-centered {
+                max-width: 700 !important;
+                height: auto !important;
+                margin-left: auto!important;
+                margin-right: auto!important;
+            }
+            /* And center justify these ones. */
+            .fluid-centered {
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+
+            /* What it does: Forces table cells into full-width rows. */
+            .stack-column,
+            .stack-column-center {
+                display: block !important;
+                width: 100% !important;
+                max-width: 700 !important;
+                direction: ltr !important;
+            }
+            /* And center justify these ones. */
+            .stack-column-center {
+                text-align: center !important;
+            }
+        
+            /* What it does: Generic utility class for centering. Useful for images, buttons, and nested tables. */
+            .center-on-narrow {
+                text-align: center !important;
+                display: block !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+                float: none !important;
+            }
+            table.center-on-narrow {
+                display: inline-block !important;
+            }
+                
+        }
+
+    </style>
+    </head>
+    <body bgcolor="#FFFFFF" width="100%" style="margin: 0; padding:0" yahoo="yahoo">
+    <table bgcolor="FFFFFF" cellpadding="0" cellspacing="0" border="0" height="100%" width="100%" style="border-collapse:collapse;">
+      <tr>
+        <td>
+            
+            <!-- Visually Hidden Preheader Text : BEGIN -->
+            <div style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family: sans-serif;">"Naquele Dia", de Laura Alcoba</div>
+            <!-- Visually Hidden Preheader Text : END --> 
+            
+            <!-- Cabeçalho : COMEÇO, alterar imagem -->
+            <table align="center" width="100%" class="email-container">
+            <tr>
+                <td align="center" style="font-size: 0.6em; font-weight: normal; line-height: 1em; color: #000000; font-family: sans-serif; padding:10px 0px 0px 0px">Se não conseguir visualizar corretamente este e-mail <a href="https://nldq.github.io/nl-naquele-dia/">clique aqui</a></td>
+			</tr>
+			<tr>
+				<td style="padding: 0.4em 0em 0em 0em; text-align: center" class="full-width-image"><img src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21123445&authkey=%21AMxe9px-h8g3JY0&width=700&height=50" alt="Dom Quixote" border="0" align="center" width="700" style="width: 100%; max-width: 700px; height: auto;"></td>
+            </tr>
+			<tr>
+				<td style="padding: 0em 0em 0em 0em; text-align: center" class="full-width-image"><img src="https://1drv.ms/i/s!AnUkWVoZ6eylipF9weV2Sfqhu8w1-Q?embed=1&width=700&height=400" alt="&quot;Naquele dia&quot;, de Laura Alcoba." border="0" width="700" align="center" style="width: 100%; max-width: 700px; height: auto;"></td>
+			</tr>
+          </table>
+            <!-- Cabeçalho : FIM --> 
+            
+            <!-- Email Body : BEGIN -->
+            <table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#ffffff" width="700" class="email-container">
+            
+<!-- Livro : COMEÇO-->
+            
+				<tr>
+				<td dir="ltr" align="center" valign="top" width="100%" style="padding: 0px;"><table align="center" border="0" cellpadding="0" cellspacing="0" width="90.5%">
+					<table align="center" width="100%">
+						<tbody>
+							<tr>
+							<td valign="top" align="center" style="padding:0px 60px 30px 60px;">
+								<h1 style="color:#446230">Naquele Dia</h1>
+							<h2>Laura Alcoba</h2>
+								<h5>Tradução de Luísa Benvinda Álvares</h5>
+							<h4>Nas livrarias a 25 de Março</h4>
+								<br>
+								<h4 style="font-weight:normal"><strong>Laura Alcoba estará em Lisboa a 1 e 2 de Abril para promover este romance inspirado numa história verdadeira, trágica, ocorrida nos anos 80 em Paris.</strong></h4>
+								<p style="text-align:left !important"><br><em><strong>Naquele Dia</strong></em>, Griselda acordou com uma dor de cabeça insuportável e não se conseguiu levantar da cama. Teve de ser Flavia, a filha de seis anos, a lembrá-la de que tinha de ir para a escola. A mãe levou-a a custo e, já em casa – quiçá compensando a frustração de na adolescência a terem proibido de pintar –, sentou-se ao espelho e maquilhou-se exageradamente, enquanto os filhos pequenos brincavam por ali. Mas a dor persistiu e, quando abriu a porta para dizer ao marido que não se estava a sentir bem, Claudio despachou-a encolhendo os ombros (detestava vê-la com a cara esborratada).<br>
+								Não sabia, quando voltou para casa, a surpresa avassaladora que o esperava.<br><br>
+								<strong>Griselda e Claudio</strong>, argentinos fugidos da ditadura e exilados em França, eram porteiros de uma escola onde a autora deste livro, sua conterrânea, chegou a visitá-los quando era criança; e foi com a recordação da sua incredulidade perante os factos acontecidos naquele dia que, mais de trinta anos depois, resolveu contar esta história improvável e entrevistar todos os implicados: Griselda, Claudio, Flavia, a professora, até a advogada…<br><br>
+								<strong>E é pelas vozes</strong> de todas essas pessoas que saberemos como uma mulher que passou por tantos contratempos e desgostos desde a infância se tornou um monstro naquele dia e, ainda assim, uma mãe amorosa nas palavras da filha.<br>
+								Este é o relato incrível das causas e consequências de um ato inominável e da forma como por vezes basta uma palavra para desviar alguém do seu destino.</p>
+								<p style="text-align:center"><br><strong>«O pai de Flavia foi trabalhar e a mãe adormeceu. Por isso é que Flavia subiu ao mezanino. Nessa primeira recordação, vê-se diante da mãe, que ainda está na cama, escondida debaixo de espessos cobertores e de pelo menos dois edredões. Está muito frio na manhã desse dia. Há várias semanas que as temperaturas são extremamente baixas, e não só em Paris, não só em França. “Uma vaga de frio atinge toda a Europa”, é o que repetem incessantemente na televisão. No mezanino onde dormem os pais, o ar é glacial, mais ainda do que em baixo, na cozinha; logo que alguém abre a boca, a respiração imobiliza-se numa coluna de vapor. A mãe cobriu-se com tudo o que pôde. Por isso, aquilo que Flavia tem diante dos olhos não se parece nada com a mãe, mas com uma carapaça de tecido e de lã debaixo da qual se adivinha uma cabeça.<br><br>
+								Na manhã daquele dia, a mãe de Flavia é uma espécie de tartaruga adormecida.<br><br>
+								Flavia vê-se a si própria de pé, diante da cama dos pais, a tamborilar nos cobertores, tentando sacudir o corpo que está por baixo: «Mamã, acorda. São horas de ir para a escola, mamã. Estás a ouvir? Tens de me levar à escola, vou chegar atrasada. Mamã!» Naquele dia, recorda-se perfeitamente, demora muito a acordar a mãe. Muito mesmo. Debaixo da carapaça, a mãe continua imóvel, enquanto as palavras da menina se perdem no vapor branco que lhe sai da boca. Por momentos, Flavia acha que a mãe não vai acordar, que nunca mais acordará, que irá ficar para sempre enterrada naquela espessura de lã. Nessa recordação, não vê os irmãos. Mas apercebe-se dos gritos de um deles. Talvez seja o mais pequeno, Boris, que ainda ouve gritar na banda sonora destas imagens. Mas não tem a certeza, pode ser Sacha. Não importa: na sua memória, os dois irmãos aparecem sempre juntos, como se fossem gémeos. Por cima da imagem da mãe-tartaruga, ouve os gritos de um ou do outro. Ou talvez as vozes dos seus irmãos, no mezanino das crianças, tenham tido tempo de se fundir e fazer uma só quando os gritos chegam aos ouvidos de Flavia, imóvel diante da mãe adormecida.»</strong></p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			<hr width="91%" color="446230">
+			<br><br>
+<!-- Sobre o autor -->
+<table align="center" width="100%">
+	<tr>
+        <td width="100%" class="stack-column-center">
+            <table align="left" width="250" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="Laura Alcoba." src="https://1drv.ms/i/s!AnUkWVoZ6eylipF-MDbeQRuXhhaMdw?embed=1&width=280&height=420" width="250">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+            <table align="right" width="400" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td valign="top" style="padding: 0px 20px 0px 0px">
+                        	<p><strong>Laura Alcoba</strong> viveu na Argentina até aos dez anos, altura em que a família se mudou para Paris, fugindo à ditadura.<br>
+							Licenciou-se em Letras e atualmente trabalha como professora universitária, tendo sido também tradutora e editora.<br>
+							Escreve em francês.<br>
+							O seu primeiro romance, publicado originalmente pela Gallimard em 2008, foi traduzido em várias línguas.<br>
+							Mais tarde, em 2013, publicaria <em>Le bleu des abeilles</em> (finalista dos Prémios Médicis e Femina) que é inspirado na correspondência trocada com o seu pai, preso na Argentina, e narra o exílio da família em França.<br>
+							<em>La dance de l’araignée</em> (vencedor do Prémio Marcel Pagnol), de 2017, fecha esta emocionante trilogia com que Laura Alcoba garantiu um lugar único na literatura latino-americana.<br>
+							Publicou ainda outras obras, como <em>Jardin Blanc</em> ou <em>Les passagers de l’ Anna C.</em>
+							</p>
+						</td>
+					</tr>
+            	</tbody>
+			</table>
+        </td>
+    </tr>
+</table>
+<br>
+<hr width="91%" color="446230">
+<br>
+<!-- Capa e especificações -->
+<table align="center" width="100%">
+	<tr>
+        <td width="100%" class="stack-column-center">
+            <table align="left" width="250" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="&quot;Naquele dia&quot;, de Laura Alcoba." src="https://1drv.ms/i/s!AnUkWVoZ6eyliokyBVLkKOOnqTGndQ?embed=1&width=1042&height=1564" width="250">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+            <table align="right" width="400" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td valign="top" style="padding: 0px 20px 0px 0px">
+                        	<p style="line-height: 250%">
+							Literatura Traduzida<br>
+							176 páginas<br>
+							16,60 Euros<br>
+							ISBN: 978-972-20-8499-4<br>
+							1.ª Edição: Março 2025<br>
+							Dom Quixote
+							</p>
+						</td>
+					</tr>
+            	</tbody>
+			</table>
+        </td>
+    </tr>
+</table>
+					<table align="center" width="100%">
+	<tbody>
+		<tr>
+			<td valign="top" align="center" style="padding: 10px">
+				<p style="text-align: center; line-height: 150%">Para mais informações:<br>
+				Rui Breda<br>
+				938 527 410<br></p>
+			</td>
+		</tr>
+		<tr>
+				<td style="padding: 0.4em 0em 0em 0em; text-align: center" class="full-width-image"><img src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21123446&authkey=%21AF8CaGSbZcojQpU&width=700&height=125" alt="Dom Quixote" border="0" align="center" width="700" style="width: 100%; max-width: 700px; height: auto;"></td>
+            </tr>
+	</tbody>
+					</table>
+                  </table></td>
+              </tr>
+          </table>
+            <!-- Email Body : END --> 
+            
+            <!-- Email Footer : BEGIN -->
+            
+            <!-- Email Footer : END -->
+            
+			</td></tr></table>
+</body>
+</html>
